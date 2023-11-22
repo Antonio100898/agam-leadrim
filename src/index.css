@@ -1,0 +1,153 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #F5F5F5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-wrapper {
+  padding: 30px;
+}
+
+.filter-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  border-bottom: 2px grey dashed;
+  padding-bottom: 30px;
+}
+
+.app-button {
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.app-select {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.text-box-text {
+  inline-size: 150px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.text-box-wrapper {
+  border: black 1px solid;
+  font-weight: bold;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-data-box {
+  width: 12.5%;
+  margin: 10px;
+}
+
+.table-row {
+  width: 100%;
+  background-color: #e6e6e6;
+  outline: solid black 1px;
+  margin: 15px 0 15px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  width: fit-content;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.paginator-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.paginator-container {
+  padding: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 50%;
+}
+
+.loader-container {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-wrapper::after {
+  content: "";
+  opacity: 0.8;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.modal-box {
+  position: absolute;
+  background: #F5F5F5;
+  width: 60%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4% 2% 4% 2%;
+  z-index: 1;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-close-button {
+  position: fixed;
+  top: 4%;
+}
+
+.modal-avatar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.modal-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin-bottom: 100px;
+}
