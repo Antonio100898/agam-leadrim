@@ -1,3 +1,6 @@
+Mini frontend application with using open source API - https://randomuser.me/
+Application uses a custom hook for fetching users data only when it is necessary
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
